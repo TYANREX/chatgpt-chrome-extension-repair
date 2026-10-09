@@ -1,9 +1,9 @@
-# Codex 浏览器插件缓存修复工具（Windows）
+# ChatGPT Chrome 扩展与 Codex 桌面端缓存修复工具（Windows）
 
 [English](README.md) | 简体中文
 
-这是一个可重复运行的修复脚本，用于解决 Codex 桌面应用已经更新，但本地
-Chrome/Browser 插件缓存仍然指向旧版本，导致 Chrome 控制无法连接的问题。
+这是一个可重复运行的修复脚本，用于解决 ChatGPT Chrome 扩展无法连接的问题：
+Codex/ChatGPT 桌面应用已经更新，但本地 Chrome/Browser 插件缓存仍指向旧版本。
 
 ## 功能
 
@@ -23,19 +23,19 @@ Chrome/Browser 插件缓存仍然指向旧版本，导致 Chrome 控制无法连
 
 下载以下两个文件，并放在同一个文件夹中：
 
-- `Repair-CodexBrowserPlugins.ps1`
-- `Repair-CodexBrowserPlugins.cmd`
+- `Repair-ChatGPTChromeExtension.ps1`
+- `Repair-ChatGPTChromeExtension.cmd`
 
 双击运行：
 
 ```text
-Repair-CodexBrowserPlugins.cmd
+Repair-ChatGPTChromeExtension.cmd
 ```
 
 也可以直接运行 PowerShell 脚本：
 
 ```powershell
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Repair-CodexBrowserPlugins.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Repair-ChatGPTChromeExtension.ps1
 ```
 
 如果脚本完成了修复，请完全退出 Codex 和 Chrome，再依次重新打开后测试浏览器控制。
