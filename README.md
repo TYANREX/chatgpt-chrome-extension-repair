@@ -1,10 +1,10 @@
-# Codex Browser Plugin Cache Repair for Windows
+# ChatGPT Chrome Extension Cache Repair for Codex Desktop (Windows)
 
 English | [简体中文](README.zh-CN.md)
 
-An idempotent repair script for a Codex desktop app issue where the bundled
-Chrome/browser plugin version is newer than the version targeted by the local
-plugin cache.
+An idempotent repair script for the ChatGPT Chrome extension when the browser
+plugins bundled with the Codex/ChatGPT desktop app are newer than the versions
+targeted by its local plugin cache.
 
 ## What it does
 
@@ -29,13 +29,13 @@ The script does **not** edit `browser-client.mjs` or the native messaging host.
 Download both files, keep them in the same folder, and double-click:
 
 ```text
-Repair-CodexBrowserPlugins.cmd
+Repair-ChatGPTChromeExtension.cmd
 ```
 
 Alternatively, run the PowerShell script directly:
 
 ```powershell
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Repair-CodexBrowserPlugins.ps1
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Repair-ChatGPTChromeExtension.ps1
 ```
 
 After a repair, fully restart Codex and Chrome before testing browser control.
