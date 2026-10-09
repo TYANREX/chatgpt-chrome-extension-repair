@@ -1,5 +1,7 @@
 # Codex Browser Plugin Cache Repair for Windows
 
+English | [简体中文](README.zh-CN.md)
+
 An idempotent repair script for a Codex desktop app issue where the bundled
 Chrome/browser plugin version is newer than the version targeted by the local
 plugin cache.
@@ -27,7 +29,7 @@ The script does **not** edit `browser-client.mjs` or the native messaging host.
 Download both files, keep them in the same folder, and double-click:
 
 ```text
-修复Codex浏览器插件.cmd
+Repair-CodexBrowserPlugins.cmd
 ```
 
 Alternatively, run the PowerShell script directly:
